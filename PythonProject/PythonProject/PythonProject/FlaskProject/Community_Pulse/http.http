@@ -1,0 +1,58 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=PyCharm
+
+###
+# ------- QUESTIONS -------
+
+# GET http://127.0.0.1:5000/questions/ HTTP/1.1
+# content-type: application/json
+
+# GET http://127.0.0.1:5000/questions/1 HTTP/1.1
+# content-type: application/json
+
+# POST http://127.0.0.1:5000/questions/ HTTP/1.1
+# content-type: application/json
+
+# {
+#     "text": "Weather is bad?"
+# }
+
+# DELETE  http://127.0.0.1:5000/questions/1 HTTP/1.1
+# content-type: application/json
+
+# PUT  http://127.0.0.1:5000/questions/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "text": "Is AI dangerous?"
+# }
+
+
+
+# ------- RESPONSES -------
+
+# GET http://127.0.0.1:5000/responses/ HTTP/1.1
+# content-type: application/json
+
+# GET http://127.0.0.1:5000/responses/1 HTTP/1.1
+# content-type: application/json
+
+# POST http://127.0.0.1:5000/responses/ HTTP/1.1
+# content-type: application/json
+
+# {
+#     "question_id": 1,
+#     "is_agree": false
+# }
+
+# DELETE  http://127.0.0.1:5000/responses/1 HTTP/1.1
+# content-type: application/json
+
+# PUT  http://127.0.0.1:5000/responses/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "question_id": 1,
+#     "is_agree": false
+# }
